@@ -1,0 +1,15 @@
+<p-toast></p-toast>
+<form class="container" [formGroup]="loginForm">
+    <h1 class="title">LolSearch</h1>
+ 
+    <span class="p-float-label">
+        <input type="text" pInputText id="mail" formControlName="mail"/>
+        <label htmlFor="mail">Email</label>
+    </span>
+    <span class="p-float-label">
+        <input type="text" pInputText id="password" formControlName="password"/>
+        <label htmlFor="password">Contraseña</label>
+    </span>
+
+    <p-button label="Iniciar Sesión" [disabled]="!loginForm.valid" [loading]="loading" (click)="submit()"></p-button>
+</form>

@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/vela-orange/theme.css";
+@import "primeng/resources/primeng.css";
+
+/**
+Each PrimeNG theme has its own font family so it is suggested to apply it to your application for a unified look.
+*/
+body {
+    font-family: var(--font-family);
+
+}
