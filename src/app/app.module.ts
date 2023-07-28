@@ -13,6 +13,7 @@ import { MessagesModule } from 'primeng/messages';
 import { MessageModule } from 'primeng/message';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
+import { PasswordModule } from 'primeng/password';
 
 @NgModule({
   declarations: [AppComponent, LoginComponent],
@@ -26,6 +27,7 @@ import { MessageService } from 'primeng/api';
     MessagesModule,
     MessageModule,
     ToastModule,
+    PasswordModule,
   ],
   providers: [MessageService],
   bootstrap: [AppComponent],
